@@ -1,0 +1,130 @@
+/* Reseta as margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilização do body */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e53939;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    animation: fadeInDown 1s ease-out;
+}
+
+/* Container principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Seções do conteúdo */
+section {
+    margin-bottom: 40px;
+}
+
+/* Títulos das seções */
+h2 {
+    margin-bottom: 10px;
+    color: #e53939;
+    border-bottom: 2px solid #e53939;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Estilização da imagem */
+#foto-pessoal img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de gostos pessoais */
+#gostos-pessoais ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#gostos-pessoais li {
+    background: #e53939;
+    color: #ffffff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+#gostos-pessoais li:hover {
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Animações */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #foto-pessoal img {
+        max-width: 100px;
+    }
+}

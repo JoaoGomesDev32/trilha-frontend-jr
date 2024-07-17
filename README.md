@@ -1,5 +1,6 @@
 # trilha-frontend-jr
 Projeto  de apresentação pessoal para fazer parte da trilha inicial FrontEnd Jr Código Certo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/379bd3ac-7ae6-4473-b1f7-2d429d66c059/deploy-status)](https://app.netlify.com/sites/trilhafejr/deploys)
 
 Apresentação para a Comunidade Codigo Certo Coders
 Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade Codigo Certo Coders e participar de projetos voluntários.

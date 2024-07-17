@@ -16,13 +16,13 @@
         </section>
         <section id="informacoes-pessoais">
             <h2>Informações Pessoais</h2>
-            <p>Nome: João Silva</p>
-            <p>Idade: 34 anos</p>
+            <p>Nome: <span id="nome">João Silva</span></p>
+            <p>Idade: <span id="idade">34 anos</span></p>
+            <button onclick="editarInformacoes()">Editar</button>
         </section>
         <section id="sobre">
             <h2>Sobre</h2>
-            <p>Meu nome é João Silva, sou um entusiasta da tecno
-                logia e desenvolvedor de software com uma paixão 
+            <p>Meu nome é João Silva, sou um entusiasta da tecnologia e desenvolvedor de software com uma paixão 
                 por resolver problemas complexos e criar soluções
                  inovadoras. Tenho uma formação acadêmica em Análise e 
                  Desenvolvimento de Sistemas pela Faculdade Estácio de
@@ -37,7 +37,7 @@
             <ul>
                 <li>Viajar</li>
                 <li>Maratonar Series</li>
-                <li>Está entre Amigos e Família</li>
+                <li>Estar entre Amigos e Família</li>
                 <li>Cursos Online</li>
                 <li>Games</li>
                 <li>Musculação</li>
@@ -45,11 +45,12 @@
         </section>
         <section id="motivacoes">
             <h2>Motivações</h2>
-            <p>Participar da comunidade Codigo Certo Coders representa uma 
+            <p id="motivacoes-texto">Participar da comunidade Codigo Certo Coders representa uma 
                 oportunidade única para mim, tanto no âmbito profissional 
                 quanto pessoal. Minhas motivações para querer fazer parte 
                 dessa comunidade são variadas e profundamente enraizadas na 
                 minha paixão por tecnologia e desenvolvimento de software.</p>
+            <button onclick="editarMotivacoes()">Editar</button>
         </section>
     </main>
     <footer>
